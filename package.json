@@ -1,0 +1,31 @@
+{
+  "name": "auto-deploy-webhook",
+  "version": "1.0.0",
+  "description": "Minimal webserver that deploys code from Github when a webhook is triggered.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trirpi/auto-deploy-webhook.git"
+  },
+  "keywords": [
+    "deploy",
+    "nodejs",
+    "express",
+    "github",
+    "webhook",
+    "docker"
+  ],
+  "author": "Tristan Trouwen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trirpi/auto-deploy-webhook/issues"
+  },
+  "homepage": "https://github.com/trirpi/auto-deploy-webhook#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
