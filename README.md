@@ -22,4 +22,4 @@ docker pull trirpi/auto-deploy-webhook:1.0.0
 docker run -p <port>:8080 trirpi/auto-deploy-webhook:1.0.0
 ```
 
-Substitute <port> with the port the service should run on.
+Substitute `<port>` with the port the service should run on.
